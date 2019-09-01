@@ -1,0 +1,16 @@
+;aiu;
+
+[Update]
+Name = Cinemator 1.0.0
+ProductVersion = 1.0.0.0
+URL = https://chamuth.github.io/cinemator-website/downloads/Cinemator1.0.0.exe
+Size = 24797562
+ReleaseDate = 01/09/2019
+MD5 = 80a859acde6c0a6ae4e8a6583fd35fbb
+ServerFileName = Cinemator1.0.0.exe
+RegistryKey = HKUD\Software\Ninponix\Cinemator\Version
+Version = 1.0.0.0
+Description = Initial release of Cinemator 1.0.0
+Feature = Scanning Movies and TV Series in one's computer
+Feature1 = Searching movies based on movie title, created year, director, producer, and etc.
+AutoCloseApplication = [APPDIR]Cinemator.exe

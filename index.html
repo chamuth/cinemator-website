@@ -41,11 +41,11 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-center">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" >Download</a></li>
+							<li class="nav-item"><a class="nav-link" onclick="startDownload()">Download</a></li>
 							<li class="nav-item"><a class="nav-link" href="#features-area">Features</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item"><a href="#" class="primary_btn text-uppercase">Download Now</a></li>
+							<li class="nav-item"><a onclick="startDownload()" class="primary_btn text-uppercase">Download Now</a></li>
 						</ul>
 					</div>
 				</div>
@@ -69,7 +69,7 @@
 								Cinemator lets you keep a professional local library of movies and tv series and keep track of your watch progress in TV Shows without any hassle.
 							</p>
 							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="#"><span>Download Now</span></a>
+								<a class="primary_btn" onclick="startDownload()"><span>Download Now</span></a>
 								<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?time_continue=2&v=J9YzcEe29d0">
 									<span></span>
 								</a>
@@ -99,7 +99,7 @@
 						<p class="top_title">Cinemator For Windows</p>
 						<h2>A Complete software to manage Movie Library</h2>
 						<p>Cinemator scans for locally downloaded <b>Movies and TV Series</b> in your computer and displays them like they're really meant to be with a beautiful UI. </p>
-						<a href="#" class="primary_btn"><span>Download for Windows</span></a>
+						<a onclick="startDownload()" class="primary_btn"><span>Download for Windows</span></a>
 					</div>
 				</div>
 			</div>
@@ -200,7 +200,7 @@
 
 									<p style="font-size:12px">* A working internet connection is necessary to download all the resources (posters, still images, backdrop images and etc.) that are needed for the program to work properly.</p>
 
-									<a class="primary_btn" href="#"><span>Download</span></a>
+									<a class="primary_btn" onclick="startDownload()"><span>Download</span></a>
 								</div>
 							</div>
 							<div class="col-lg-6 text-right">
@@ -278,7 +278,7 @@
 			<div class="impress_inner">
 				<h2>Like what you see?</h2>
 				<p>Download Cinemator now for free, to enjoy all the features packed in to make your movie experience greater than it ever was.</p>
-				<a class="primary_btn" href="#"><span>Download Now (Windows)</span></a>
+				<a class="primary_btn" onclick="startDownload()"><span>Download Now (Windows)</span></a>
 			</div>
 		</div>
 	</section>
@@ -355,6 +355,13 @@ Copyright &copy; Chamuth Chamandana <script>document.write(new Date().getFullYea
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/theme.js"></script>
+
+	<script>
+		var startDownload = function()
+		{
+			window.open('https://chamuth.github.io/cinemator-website/downloads/Cinemator1.0.0.exe', '_blank');
+		}
+	</script>
 </body>
 
 </html>
